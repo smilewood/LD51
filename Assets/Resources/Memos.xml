@@ -1,0 +1,21 @@
+<Root>
+  <Memos>
+    <Memo>
+      <Title>Found some gold!</Title>
+      <Body>It was just sitting in the street! Lucky you, go buy something nice.</Body>
+      <Type>Basic</Type>
+      <Effects>
+        <Effect>
+          <Resource>Money</Resource>
+          <Ammount>10</Ammount>
+        </Effect>
+      </Effects>
+    </Memo>
+  </Memos>
+  <Resources>
+    <Money>
+      <Type>Pile</Type>
+      <DefaultValue>100</DefaultValue>
+    </Money>
+  </Resources>
+</Root>
