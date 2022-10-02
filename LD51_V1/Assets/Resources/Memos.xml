@@ -1,0 +1,42 @@
+<Root>
+  <Memos>
+    <Memo>
+      <Title>Found some gold!</Title>
+      <Body>It was just sitting in the street! Lucky you, go buy something nice.</Body>
+      <Repeatable>true</Repeatable>
+      <Priority>false</Priority>
+      <Effects>
+        <Effect>
+          <Resource>Money</Resource>
+          <Ammount>10</Ammount>
+        </Effect>
+      </Effects>
+      <Conditions>
+        <Condition>
+          <Resource>Money</Resource>
+          <Condition>LessThen</Condition>
+          <Target>50</Target>
+        </Condition>
+        <Condition>
+          <Resource>Day</Resource>
+          <Condition>LessThen</Condition>
+          <Target>2</Target>
+        </Condition>
+      </Conditions>
+    </Memo>
+    <Memo>
+      <Title>The first memo</Title>
+      <Body>This one should be the first one!</Body>
+      <Repeatable>false</Repeatable>
+      <Priority>false</Priority>
+      <Effects />
+      <Conditions />
+    </Memo>
+  </Memos>
+  <Resources>
+    <Money>
+      <Type>Pile</Type>
+      <DefaultValue>10</DefaultValue>
+    </Money>
+  </Resources>
+</Root>
